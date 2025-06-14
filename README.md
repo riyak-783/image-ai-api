@@ -2,7 +2,7 @@
 
 An AI-powered image enhancer built using **React**, **Tailwind CSS**, **Axios**, and **Vite**. Upload any image and let Picwish AI automatically enhance it — sharpen, clear, and improve your visuals in seconds. Powered by the Picwish API.
 
-> 🔗 **Live Demo:** [Click here to try it on Netlify](https://your-netlify-link.netlify.app)
+> 🔗 **Live Demo:** [Click here to try it on Netlify](https://image-enhancer-picwish-ai.netlify.app/)
 
 ---
 
