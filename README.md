@@ -46,3 +46,46 @@ An AI-powered image enhancer built using **React**, **Tailwind CSS**, **Axios**,
 ```bash
 git clone https://github.com/riyak-783/image-enhancer-picwish.git
 cd image-enhancer-picwish
+````
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Add your API key**
+
+In src folder add and API Key
+
+```
+VITE_PICWISH_API_KEY=your_picwish_api_key
+```
+
+4. **Run the project**
+
+```bash
+npm run dev
+```
+
+5. **Build for production**
+
+```bash
+npm run build
+```
+
+---
+
+## 📌 Limitations
+
+* Limited to **15 free credits** (Picwish API).
+* Requires an internet connection to work.
+* Enhancement process may take a few seconds depending on image size and server response.
+
+---
+
+## 💡 Inspiration
+
+This project was inspired by real-world SaaS tools that use **task-based asynchronous APIs** for handling large processing tasks like image enhancement, PDF conversion, and more.
+
+
