@@ -1,50 +1,48 @@
-# 🌟 My Portfolio Website
+# 🌟 Image Enhancer using Picwish AI
 
-[![Vercel](https://img.shields.io/badge/Hosted%20on-Vercel-000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-vercel-url.vercel.app)
-[![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61dafb)](https://reactjs.org/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+An AI-powered image enhancer built using **React**, **Tailwind CSS**, **Axios**, and **Vite**. Upload any image and let Picwish AI automatically enhance it — sharpen, clear, and improve your visuals in seconds. Powered by the Picwish API.
+
+> 🔗 **Live Demo:** [Click here to try it on Netlify](https://your-netlify-link.netlify.app)
 
 ---
 
-## 🚀 About the Project
+## 🚀 Features
 
-🎨 A clean, modern, and fully responsive **portfolio website** built using **React**, **Tailwind CSS**, and **Framer Motion** for smooth animations.  
-🚀 Blazing fast performance thanks to **Vite** and deployed seamlessly on **Vercel**.
-
----
-
-## ✨ Features
-
-- 🧑‍💻 About Me section
-- 🧰 Skills & Tech Stack
-- 📁 Projects showcase
-- 📬 Contact form / links
-- 🌐 Responsive Design
-- 🎞️ Framer Motion animations
+- 📤 Upload your own image (JPG/PNG)
+- 🤖 Enhance image quality using Picwish AI
+- ⚙️ Task ID-based processing (ensures secure and reliable image enhancement)
+- 💬 Realtime feedback with loading, success, and error messages
+- 🎨 Clean UI with Tailwind CSS
+- 🧪 Built using Vite + React for lightning-fast development
 
 ---
 
-## 📸 Preview
+## 🧠 How It Works
 
-> 🖼️ Live Demo: [View Portfolio](https://portfolio-riya-three.vercel.app/)  
+1. User uploads an image
+2. A request is sent to Picwish API to create a task
+3. The API returns a `task_id`
+4. Using `task_id`, we poll the server for the enhanced image
+5. Once ready, the enhanced image is displayed
 
-
----
-
-## 🛠️ Tech Stack
-
-| Frontend        | Styling        | Animation         | Hosting     |
-|-----------------|----------------|-------------------|-------------|
-| React + Vite    | Tailwind CSS   | Framer Motion     | Vercel      |
+> ⚠️ **Note:** This project uses the **free version** of Picwish API, which is limited to **15 credits**. After that, a paid key is required.
 
 ---
 
-## 📂 How to Run Locally
+## 📁 Tech Stack
+
+- **React** (with Hooks)
+- **Vite** (for fast bundling)
+- **Tailwind CSS** (for UI styling)
+- **Axios** (for API requests)
+- **React Router** (optional for routing pages)
+
+---
+
+## 🛠️ Setup Instructions
+
+1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/your-portfolio.git
-cd your-portfolio
-npm install
-npm run dev
+git clone https://github.com/riyak-783/image-enhancer-picwish.git
+cd image-enhancer-picwish
